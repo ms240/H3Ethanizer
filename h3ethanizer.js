@@ -2,7 +2,7 @@ const imagesPath = "images/";
 const images = [];
 
 // Apply the overlay
-function applyOverlay(thumbnailElement, overlayImageUrl, flip) {
+function applyOverlay(thumbnailElement, overlayImageUrl) {
   // Create a new img element for the overlay
   const overlayImage = document.createElement("img");
   overlayImage.src = overlayImageUrl;
@@ -12,10 +12,6 @@ function applyOverlay(thumbnailElement, overlayImageUrl, flip) {
   overlayImage.style.width = "100%";
   overlayImage.style.height = "100%";
   overlayImage.style.zIndex = "0"; // Ensure overlay is on top
-
-  if (flip) {
-    overlayImage.style.transform = "scaleX(-1)"; // Flip the image horizontally
-  }
 
   // Style the thumbnailElement to handle absolute positioning
   thumbnailElement.style.position = "relative";
@@ -40,8 +36,7 @@ function applyOverlayToThumbnails() {
     for (let i = 0; i < loops; i++) {
       // Get overlay image URL from your directory
       const overlayImageUrl = getRandomImageFromDirectory();
-      const flip = Math.random() < 0.25; // 25% chance to flip the image
-      applyOverlay(thumbnailElement, overlayImageUrl, flip);
+      applyOverlay(thumbnailElement, overlayImageUrl);
     }
   });
 }
