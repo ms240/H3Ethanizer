@@ -1,4 +1,4 @@
-# Youtube MrBeastify
+# Youtube H3Ethanizer
 
 Enhance your browsing experience with H3Ethanizer. Is your browser experience lacking excitement? Are you struggling to discover captivating and entertaining videos? Look no further. This extension incorporates the renowned YouTuber H3 Ethan Klein into every thumbnail.
 
