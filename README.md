@@ -4,6 +4,8 @@ Enhance your browsing experience with H3Ethanizer. Is your browser experience la
 
 Instructions on how to port and modify the extension can be found [here](https://github.com/MagicJinn/MrBeastify-Youtube/issues/16).
 
+[Google Chrome or Opera](https://chrome.google.com/webstore/detail/youtube-h3ethanizer/lhdcdoeahgaaehndpglhnabjahfoegjn/related?hl=de) | Firefox (Coming Soon)
+
 Notes:
 This extension draws inspiration from the MrBeastify Youtube [Extension](https://github.com/MagicJinn/MrBeastify-Youtube)
 Please note that this extension is unofficial and not endorsed or affiliated with H3 Ethan Klein or YouTube.
